@@ -1,0 +1,382 @@
+@media (max-width: 1080px) {
+    header {
+        height: 60px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 10;
+    }
+    .header-right {
+        padding-top: 10px;
+    }
+    .header-right ul {
+        display: none;
+    }
+    .header-right i {
+        display: block;
+    }
+    .first-contents {
+        margin-top: 60px;
+    }
+    .forth-contents-textbox {
+        display: none;
+    }
+    .first-columun img {
+        width: 60%;
+        padding: 10px 40px;
+    }
+    .first-line-img-margin{
+        text-align: center;
+    }
+    .first-line .forth-columun h2 {
+        padding-top: 10px;
+        display: block;
+    }
+    .forth-contents-title {
+        display: block;
+    }
+    .btn-text {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .fifth-contents {
+    }
+
+    .fifth-contents h3 {
+        margin-right: 0;
+    }
+
+    .right-btn {
+        padding-top: 12px;
+    }
+
+    .open-padding {
+        padding: 20.5px 55px;
+    }
+      
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 748px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }      
+    header {
+        height: 50px;
+    }
+    .header-left {
+        padding-top: 15px;
+    }
+    .header-right {
+        padding-top: 5px;
+    }
+
+    .header-left img {
+        width: 150px;
+    }
+    .first-contents {
+        height: 160px;
+        background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/course-hero-sp.png);
+        background-size: 350px;
+        background-color: #F79313;
+        background-repeat: no-repeat;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .first-contents h1 {
+        font-size: 22px;
+        line-height: 130px;
+        padding-left: 0;
+    }
+    .second-contents span {
+        display: block;
+        font-size: 30px;
+    }
+
+    .second-contents h1 {
+        font-size: 26px;
+    }
+
+    .second-textbox p {
+        display: inline;
+    }
+
+    .second-textbox-two p {
+        font-size: 16px;
+    }
+
+    .second-textbox {
+        text-align: left;
+    }
+
+    .third-contents-icon img {
+        margin-top: 20px;
+        width: 35px;
+    }
+
+    .third-contents-icon {
+        width: 80px;
+        height: 80px;
+        top: -40px;
+    }
+
+    .third-contents h3 {
+        font-size: 20px;
+    }
+
+    .third-contents ul {
+        display: block;
+        padding-top: 0px;
+    }
+
+    .third-contents li {
+        width: 100%;
+        margin: 35px 0 0 0;
+    }
+
+    .third-contents-box { 
+        width: 93%;
+    }
+
+    .first-line h2 {
+        font-size: 12px;
+    }
+
+    .first-line .forth-columun span {
+        font-size: 12px;
+        display: inline-block;
+    }
+
+    .forth-contents p {
+        font-size: 10px;
+    }
+    
+    .first-columun img {
+        width: 90%;
+        padding: 10px;
+    }
+    
+    .forth-contents li {
+        font-size: 10px;
+    }
+
+    .second-columun img {
+        width: 20px;
+        padding: 15px 0 10px 0;
+    }
+
+    .third-columun img {
+        width: 20px;
+        padding: 0;
+    }
+
+    .forth-columun img {
+        width: 20px;
+    }
+
+    .fifth-line span {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .seventh-line h4 {
+        font-size: 12px;
+        padding: 20px;
+    }
+
+    .circle {
+        height: 4px;
+        width: 4px;
+        margin-right: 3px;
+    }
+
+    .float {
+        margin-top: 6px;
+    }
+
+    .first-columun p {
+        padding-left: 10px;
+    }
+    
+    .forth-contents ul {
+        padding: 10px;
+    }
+
+    .forth-line .second-columun {
+        position: relative;
+    }
+
+    .forth-line .second-columun img {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        transform: translateY(-50%)
+    }
+
+    .fifth-line p {
+        padding: 10px;
+    }
+
+    .seventh-line h4 {
+        padding: 10px;
+    }
+
+    .fifth-contents ul {
+        display: block;
+    }
+
+    .fifth-contents li {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .fifth-contents p {
+        padding-top: 4px;
+    }
+
+    .fifth-contents h2 {
+        font-size: 26px;
+    }
+
+    .fifth-contents h3 {
+        margin-right: 10px;
+    }
+
+    .btn-text {
+        display: flex;
+        justify-content: center;
+    }
+
+    .center-btn {
+        margin: 0;
+    }
+
+    .right-btn {
+        padding: 0;
+    }
+
+    .sixth-contents h3 {
+        font-size: 24px;
+    }
+
+    .carrier-course {
+        font-size: 24px;
+        display: block;
+        line-height: 20px;
+    }
+
+    .selection-class {
+        padding-top: 10px;
+    }
+
+    .sixth-contents-section h4 {
+        text-align: center;
+    }
+
+    .sixth-subtitle {
+        display: block;
+        margin: 30px auto 0 auto;
+        text-align: center;
+        width: 90px;
+    }
+
+    .align-center {
+        text-align: center;
+    }
+
+    .sixth-picture-box {
+        display: inline-block;
+        position: relative;
+    }
+
+    .sixth-picture {
+        width: 100%;
+    }
+
+    .sixth-picture img {
+        width: 100%;
+    }
+
+    .seventh-contents h2 {
+        font-size: 26px;
+    }
+
+    .seventh-contents-list li {
+        width: 100%;
+    }
+
+    .seventh-contents-list img {
+        max-height: 380px;
+    }
+
+    .seventh-backimg {
+        width: 125px;
+        right: 20%;
+        top: -10px;
+    }
+
+    .picture-side-textbox p {
+        line-height: 22px;
+        padding: 20px;
+    }
+
+    .footer-top {
+        display: block;
+    }
+
+    .footer-left {
+        display: none;
+    }
+
+    .footer-right {
+        width: 100%;
+    }
+
+    .footer-icon {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .white-line {
+        display: inline-block;
+    }
+
+    .footer-responsive {
+        display: block;
+    }
+
+    .footer-bottom {
+        text-align: center;
+    }
+
+    .footer-responsive ul {
+        justify-content: center;
+    }
+
+    .select-btn {
+        display: inline-block;
+        padding-top: 40px;
+        margin: 0 auto;
+    }
+
+    .slide {
+        display: none;
+    }
+    
+    .active {
+        display: block;
+    }
+
+    .change-btn {
+        display: block;
+    }
+
+    .open-padding {
+        padding: 12px 55px;
+    }
+}
