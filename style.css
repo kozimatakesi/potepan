@@ -1,0 +1,927 @@
+body, div, p, ul, ol, li, dl, dt,
+dd, table, th, td, img, figure,
+h1, h2, h3, h4, h5, h6, form, select {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  letter-spacing: 2px;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+/* ヘッダー用 */
+header {
+  height: 80px;
+  background-color: #fff;
+}
+
+header .container {
+  display: flex;
+}
+
+.header-left {
+  padding-top: 20px;
+}
+
+.header-left img {
+  width: 185px;
+}
+
+.header-right {
+  padding-top: 20px;
+  margin-left: auto;
+}
+
+.header-right h5{
+  font-size: 14px;
+}
+
+.header-right h6 {
+  font-size: 10px;
+}
+
+.header-right a {
+  color: black;
+}
+
+.header-right ul {
+  display: flex;
+}
+
+.header-right li {
+  text-align: center;
+  margin-left: 30px;
+}
+
+.header-btn {
+  height: 40px;
+  width: 150px;
+  background-color: #F79313;
+  border-radius: 40px;
+  line-height: 40px;
+}
+
+.header-btn:hover {
+  opacity: 0.7;
+}
+
+.header-btn h5 {
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: normal;
+}
+
+.header-right i {
+  font-size: 35px;
+  display: none;
+}
+
+/* コース・料金 */
+.first-contents {
+  height: 200px;
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/course-hero-pc.png);
+  background-position: center;
+}
+
+.first-contents h1 {
+  color: #fff;
+  font-size: 40px;
+  line-height: 200px;
+  padding-left: 145px;
+}
+
+/* POTEPANコースについて */
+.second-contents {
+  height: 620px;
+  background-color: #FCFAF5;
+  text-align: center;
+}
+
+.second-contents h1 {
+  font-size: 46px;
+  padding-top: 75px;
+}
+
+.second-contents span {
+  font-family: 'Lato';
+}
+
+.border {
+  border-bottom: 6px solid #F79313;
+  width: 50px;
+  margin: 0 auto;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
+.second-textbox {
+  padding-top: 30px;
+}
+
+.second-textbox p {
+  line-height: 30px;
+}
+
+.second-textbox-two p {
+  padding-top: 30px;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  background: linear-gradient(transparent 90%, #FFF79E 90%);
+}
+
+/* 全コースの共通POINT */
+.third-contents {
+  background-color: #FCFAF5;
+  padding-top: 40px;
+}
+
+.third-contents h3 {
+  font-size: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.third-contents h4 {
+  display: inline-block;
+  width: 100%;
+  font-size: 14px;
+  color: #fff;
+  background-color: black;
+  border-radius: 15px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.third-contents ul {
+  display: flex;
+  padding-top: 30px;
+}
+
+.third-contents li {
+  box-sizing: border-box;
+  width: 33.3%;
+  margin: 0 20px;
+}
+
+.third-contents img {
+  width: 100%;
+}
+
+.third-contents-box {
+  width: 96%;
+  padding: 30px 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.third-contents-icon {
+  position: absolute;
+  background-color: #ffffff;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  top: -50px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.third-contents-icon img {
+  width: 40px;
+  margin-top: 30px;
+}
+
+.img-margin {
+  margin-top: 15px;
+}
+
+.third-contents-imgtitle {
+  margin-top: 10px;
+}
+
+.third-contents-imgtitle img {
+  width: 25px;
+  margin-right: 10px;
+  display: inline;
+}
+
+.third-contents-imgtitle p {
+  display: inline;
+  font-size: 16px;
+}
+
+/* 選べる３コース */
+.forth-contents {
+  background-color: #FCFAF5;
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+
+.forth-contents-title {
+  color: #F79313;
+  text-align: center;
+  display: none;
+}
+
+.forth-contents-title h3 {
+  font-size: 20px;
+  letter-spacing: 4px;
+  line-height: 5px;
+}
+
+.forth-contents-title h2 {
+  font-size: 30px;
+  letter-spacing: 4px;
+}
+
+.forth-contents-title span {
+  font-size: 40px;
+}
+
+.forth-contents ul {
+  text-align: left;
+  padding: 20px;
+}
+
+.forth-contents li {
+  font-weight: bold;
+}
+
+.forth-contents-textbox {
+  text-align: center;
+  padding: 10px 20px 10px 0;
+  color: #F79313;
+}
+
+.forth-contents-textbox h5 {
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 12px;
+  font-weight: normal;
+}
+
+.forth-contents-textbox h4 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 25px;
+}
+
+.forth-contents-textbox span {
+  font-size: 30px;
+}
+
+.line {
+  display: flex;
+  border-top: 2px solid #FCFAF5;
+}
+
+.first-line {
+  color: #fff;
+}
+
+.first-line p {
+  font-size: 14px;
+}
+
+.first-line .second-columun {
+  position: relative;
+}
+
+.first-line .third-columun {
+  position: relative;
+}
+
+.first-line .forth-columun {
+  position: relative;
+}
+
+.first-line .forth-columun h2 {
+  display: inline-block;
+}
+
+.first-line .forth-columun span {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.third-line,.fifth-line,.seventh-line {
+  background-color: #FFF8EA;
+}
+
+.second-line,.forth-line,.sixth-line {
+  background-color: #FFFDFA;
+}
+
+.fifth-line span {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.fifth-line p {
+  padding: 20px 0;
+}
+
+.seventh-line h4 {
+  font-size: 20px;
+  padding: 20px;
+}
+
+.first-columun {
+  border-right: 2px solid #FCFAF5;
+  width: 21.5%;
+  position: relative;
+}
+
+.first-columun img {
+  width: 85px;
+  padding: 20px 15px;
+  float: left;
+}
+
+.first-columun p {
+  padding-left: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: bold;
+}
+
+
+.second-columun {
+  border-right: 2px solid #FCFAF5;
+  width: 26.5%;
+  text-align: center;
+}
+
+.third-columun {
+  border-right: 2px solid #FCFAF5;
+  width: 26%;
+  text-align: center;
+}
+
+.forth-columun {
+  width: 26%;
+  text-align: center;
+}
+
+.third-line .forth-columun,.third-line .second-columun,.third-line .third-columun {
+  position: relative;
+}
+
+.second-columun img {
+  width: 32px;
+  padding: 20px 0 15px 0;
+}
+
+
+.third-line .third-columun img {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  transform: translateY(-50%)
+}
+
+.third-columun img {
+  width: 32px;
+}
+
+.third-line .forth-columun img {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  transform: translateY(-50%)
+}
+
+.forth-columun img {
+  width: 32px;
+}
+
+.forth-line .third-columun {
+  padding: 20px 0 15px 0;
+}
+
+.forth-line .forth-columun {
+  position: relative;
+}
+
+.hyfun {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  transform: translateY(-50%)
+}
+
+.sixth-line .second-columun li {
+  display: flex;
+}
+
+.sixth-line .third-columun li {
+  display: flex;
+}
+
+.sixth-line .forth-columun li {
+  display: flex;
+}
+
+.circle {
+  background-color: #F79313;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle; /* 上下中央に寄せる */ 
+  margin-right: 10px;
+}
+
+.float {
+  margin-top: 10px;
+}
+
+.sixth-textbox {
+  display: inline-block;
+  width: 100%
+}
+
+.FCFAF5 {
+  background-color: #FCFAF5;
+}
+
+.F79313 {
+  background-color: #F79313;
+}
+
+.E4EFF5 {
+  background-color: #E4EFF5;
+}
+
+.D9EAF3 {
+  background-color: #D9EAF3;
+}
+
+.FFF8EA {
+  background-color: #FFF8EA;
+}
+
+.F85309 {
+  color: #F85309;
+}
+
+.a41C36E {
+  color: #41C36E;
+}
+
+.left-corner {
+  border-radius: 10px 0 0 0;
+}
+
+.right-corner {
+  border-radius: 0 10px 0 0;
+}
+
+.left-bottom-corner {
+  border-radius: 0 0 0 10px;
+}
+
+.cell-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit- transform: translateY(-50%) translateX(-50%);
+  margin: auto;
+}
+
+/* コースプラン */
+.fifth-contents {
+  background-color: #fff;
+  padding-top: 70px;
+  text-align: center;
+}
+
+.fifth-contents p {
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.fifth-contents h2 {
+  font-size: 46px;
+}
+
+.fifth-contents h3 {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.fifth-contents a {
+  color: #F79313;
+  display: flex;
+  transition: 0.5s;
+}
+
+.normal-padding {
+  padding: 12px 55px;
+}
+
+.open-padding {
+  padding: 12px 55px;
+}
+
+.fifth-contents ul {
+  display: flex;
+  padding-top: 30px;
+}
+
+.fifth-contents li {
+  width: 33%;
+  background-color: #fff;
+  border: 2px solid #F79313;
+  border-radius: 7px;
+  position: relative;
+}
+
+.course-hover:hover {
+  background-color: #F79313;
+  color: #fff;
+}
+
+.fifth-contents i {
+  position: absolute;
+  font-size: 25px;
+  top: 50%;
+  left: 30px;
+  right: 0;
+  margin: 0 auto;
+  transform: translateY(-50%);
+  text-align: left;
+}
+
+.right-btn {
+  width: 100%;
+  text-align: center;
+}
+/*
+.angle-left {
+  text-align: left;
+}
+*/
+.center-btn {
+  margin: 0 5px;
+}
+
+.btn-text {
+  display: flex;
+  text-align: left;
+}
+/* 選抜キャリアコース */
+.sixth-contents {
+  background-color: #fff;
+  text-align: center;
+  margin-top: 60px;
+  padding-bottom: 70px;
+}
+
+.sixth-contents h3 {
+  font-size: 36px;
+  display: inline-block;
+}
+
+.carrier-course {
+  font-size: 36px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.sixth-contents h4 {
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.sixth-contents h5 {
+  font-size: 16px;
+}
+
+.course-container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 100%;
+  background-color: #FCFAF5;
+  border-radius: 20px;;
+}
+
+.sixth-contents-section {
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 40px auto 0 auto;
+  width: 90%;
+  padding: 20px;
+  text-align: left;
+}
+
+.sixth-contents-section ul {
+  padding-top: 5px;
+  padding-left: 8px;
+}
+
+.sixth-icon {
+  width: 20px;
+  margin-right: 8px;
+}
+
+.sixth-subtitle {
+  display: inline-block;
+  background-color: #FCFAF5;
+  color: #F79313;
+  padding: 3px 25px;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.sixth-subtitle img {
+  width: 18px;
+  margin-right: 8px;
+}
+
+.sixth-subtitle-textbox {
+  padding-left: 15px;
+  margin-top: 25px;
+}
+
+.sixth-subtitle-textbox span {
+  font-size: 14px;
+}
+
+.sixth-picture-box {
+  margin-top: 20px;
+  border: 2px solid #F79313;
+  position: relative;
+  display: flex;
+}
+
+.sixth-picture {
+  width: 63%;
+}
+
+.sixth-picture img {
+  width: 250px;
+}
+
+.picture-side-textbox p {
+  padding: 20px 30px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+.picture-title {
+  background-color: #F79313;
+  color: #fff;
+  width: 120px;
+  position: absolute;
+}
+
+.picture-title h5 {
+  font-size: 14px;
+  padding: 0 0 5px 10px;
+}
+
+.picture-title span {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.circleb {
+  background-color: #F79313;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle; /* 上下中央に寄せる */ 
+  margin-right: 10px;
+}
+
+/* 受講生の声 */
+.seventh-contents {
+  background-color: #F6F6F6;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.seventh-contents .container {
+  position: relative;
+}
+
+.seventh-contents p {
+  font-weight: bold;
+  line-height: 30px;
+  padding-top: 10px;
+}
+
+.seventh-contents h2 {
+  font-size: 46px;
+  position: relative;
+  z-index: 5;
+}
+
+.seventh-contents-list {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 5;
+  position: relative;
+}
+
+.seventh-contents-list li {
+  width: 31%;
+  text-align: left;
+}
+
+.seventh-contents-list img {
+  width: 100%;
+  height: auto;
+  max-height: 190px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.seventh-backimg {
+  position: absolute;
+  width: 280px;
+  right: 50px;
+  top: -30px;
+}
+
+.select-btn {
+  display: none;
+  margin: 0 auto;
+}
+
+.select-btn ul {
+  display: flex;
+}
+
+.select-btn img {
+  width: 11px;
+  margin: 0 15px;
+}
+
+.change-btn {
+  background-color: #313131;
+  border: 1px solid #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #fff;
+  line-height: 30px;
+  text-align: center;
+  position: absolute;
+  display: none;
+  opacity: 1;
+  transition: all 0.5s;
+}
+
+.change-btn:hover {
+  opacity: 0.5;
+}
+
+.next-btn {
+  right: -15px;
+  top: 35%;
+}
+
+.prev-btn {
+  left: -15px;
+  top: 35%;
+}
+
+.click-btn {
+  display: none;
+}
+
+/* フッター */
+footer {
+  background-color: #F79313;
+  color: #fff;
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
+.footer-top {
+  display: flex;
+}
+
+.footer-title {
+  width: 280px;
+}
+
+.footer-left p {
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.footer-left ul {
+  display: flex;
+  padding-top: 40px;
+}
+
+.sns-icon {
+  width: 60px;
+}
+
+.plus-margin {
+  margin-top: 10px;
+}
+
+.facebook-icon {
+  margin-right: 20px;
+}
+
+.footer-right{
+  margin: 0 auto;
+}
+
+.footer-right a {
+  color: #fff;
+}
+
+.footer-right span {
+  font-weight: bold;
+}
+
+.footer-list-margin {
+  margin-top: 30px;
+}
+
+.footer-icon {
+  margin-top: auto;
+}
+
+.footer-icon img {
+  width: 120px;
+}
+
+.footer-bottom {
+  padding-top: 50px;
+}
+
+.footer-bottom p {
+  font-size: 12px;
+}
+
+.white-line {
+  display: none;
+  border-top: 1px solid #fff;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.footer-responsive {
+  padding-top: 30px;
+  display: none;
+  text-align: center;
+}
+
+footer .container {
+  position: relative;
+}
+
+.move-top-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #F79313;
+  right: 20px;
+  top: -95px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  position: absolute;
+}
